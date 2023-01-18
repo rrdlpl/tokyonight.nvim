@@ -216,7 +216,7 @@ function M.setup()
     TSNote = { fg = c.bg, bg = c.info },
     ["@text.warning"] = { fg = c.bg, bg = c.warning },
     ["@text.danger"] = { fg = c.bg, bg = c.error },
-    ["@constructor"] = { fg = c.pink }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    ["@constructor"] = { fg = c.green }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@include"] = { fg = c.pink },
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     -- TSConstant          = { };    -- For constants
@@ -226,7 +226,8 @@ function M.setup()
     -- TSException         = { };    -- For exception related keywords.
     ["@field"] = { fg = c.green1 }, -- For fields.
     -- TSFloat             = { };    -- For floats.
-    -- TSFunction          = { };    -- For function (calls and definitions).
+    TSFunction = { fg = c.green }, -- For function (calls and definitions).
+    ["@function.call"] = { fg = c.green },
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude           = { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
@@ -236,13 +237,14 @@ function M.setup()
     TSMethod = { fg = c.green }, -- For method calls and definitions.
     -- TSNamespace         = { };    -- For identifiers referring to modules and namespaces.
     -- TSNone              = { };    -- TODO: docs
+    ["@none"] = { fg = c.white },
     -- TSNumber            = { };    -- For all numbers
     TSNumber = { fg = c.pink },
     ["@number"] = { fg = c.pink },
     ["@operator"] = { fg = c.blue5 }, -- For any operator: `+`, but also `->` and `*` in C.
     ["@parameter"] = { fg = c.orange }, -- For parameters of a function.
     TSParameterReference = { fg = c.orange }, -- For references to parameters of a function.
-    ["@property"] = { fg = c.green1 }, -- Same as `TSField`.
+    ["@property"] = { fg = c.white }, -- Same as `TSField`.
     ["@punctuation.delimiter"] = { fg = c.blue5 }, -- For delimiters ie: `.`
     ["@punctuation.bracket"] = { fg = c.fg_dark }, -- For brackets and parens.
     ["@punctuation.special"] = { fg = c.blue5 }, -- For special punctutation that does not fall in the catagories before.
