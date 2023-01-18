@@ -27,7 +27,7 @@ M.default = {
   magenta2 = "#ff007c",
   purple = "#9d7cd8",
   orange = "#fd971f",
-  yellow = "#e0af68",
+  yellow = "#e6db74",
   green = "#9ece6a",
   green1 = "#73daca",
   green2 = "#41a6b5",
@@ -128,7 +128,7 @@ function M.setup(opts)
   colors.git.ignore = colors.dark3
   colors.black = util.darken(colors.bg, 0.8, "#000000")
   colors.border_highlight = util.darken(colors.blue1, 0.8)
-  colors.border = colors.black
+  colors.border = colors.pink
 
   -- Popups and statusline always get a dark background
   colors.bg_popup = colors.bg_dark
@@ -144,7 +144,7 @@ function M.setup(opts)
     or colors.bg
 
   colors.bg_visual = util.darken(colors.blue0, 0.7)
-  colors.bg_search = colors.blue0
+  colors.bg_search = colors.pink
   colors.fg_sidebar = colors.fg_dark
   -- colors.fg_float = config.options.styles.floats == "dark" and colors.fg_dark or colors.fg
   colors.fg_float = colors.fg
