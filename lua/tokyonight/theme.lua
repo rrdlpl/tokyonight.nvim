@@ -216,8 +216,8 @@ function M.setup()
     TSNote = { fg = c.bg, bg = c.info },
     ["@text.warning"] = { fg = c.bg, bg = c.warning },
     ["@text.danger"] = { fg = c.bg, bg = c.error },
-    ["@constructor"] = { fg = c.green }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@include"] = { fg = c.pink },
+    ["@constructor"] = { fg = c.green }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     -- TSConstant          = { };    -- For constants
     -- TSConstBuiltin      = { };    -- For constant that are built in the language: `nil` in Lua.
