@@ -65,7 +65,7 @@ local colors = {
 
 local highlights = {
   ["@constructor"] = {
-    fg = "#bb9af7",
+    fg = "red",
   },
   ["@field"] = {
     fg = "#73daca",
