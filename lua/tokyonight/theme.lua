@@ -234,7 +234,7 @@ function M.setup()
     -- TSInclude           = { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     ["@keyword"] = { fg = c.pink, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
     ["@keyword.function"] = { fg = c.magenta, style = options.styles.functions }, -- For keywords used to define a fuction.
-    ["@label"] = { fg = c.blue }, -- For labels: `label:` in C and `:label:` in Lua.
+    ["@label"] = { fg = c.aqua }, -- For labels: `label:` in C and `:label:` in Lua.
     TSMethod = { fg = c.green }, -- For method calls and definitions.
     ["@method"] = { fg = c.green },
     ["@method.call"] = { fg = c.green },
