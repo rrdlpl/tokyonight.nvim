@@ -65,7 +65,7 @@ local colors = {
 
 local highlights = {
   ["@constructor"] = {
-    fg = "red",
+    fg = "#bb9af7",
   },
   ["@field"] = {
     fg = "#73daca",
@@ -113,7 +113,7 @@ local highlights = {
   },
   ["@text.danger"] = {
     bg = "#db4b4b",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   ["@text.literal.markdown_inline"] = {
     bg = "#414868",
@@ -124,7 +124,7 @@ local highlights = {
   },
   ["@text.warning"] = {
     bg = "#e0af68",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   ["@variable"] = {
     style = {},
@@ -368,14 +368,14 @@ local highlights = {
   },
   Cursor = {
     bg = "#c0caf5",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   CursorColumn = {
     bg = "#292e42",
   },
   CursorIM = {
     bg = "#c0caf5",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   CursorLine = {
     bg = "#292e42",
@@ -468,7 +468,7 @@ local highlights = {
     fg = "#7aa2f7",
   },
   EndOfBuffer = {
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   Error = {
     fg = "#db4b4b",
@@ -484,7 +484,7 @@ local highlights = {
     fg = "#27a1b9",
   },
   FoldColumn = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#565f89",
   },
   Folded = {
@@ -746,7 +746,7 @@ local highlights = {
     },
   },
   MiniStarterItem = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   MiniStarterItemBullet = {
@@ -1157,7 +1157,7 @@ local highlights = {
     fg = "#545c7e",
   },
   Normal = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NormalFloat = {
@@ -1165,7 +1165,7 @@ local highlights = {
     fg = "#a9b1d6",
   },
   NormalNC = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NormalSB = {
@@ -1173,11 +1173,11 @@ local highlights = {
     fg = "#a9b1d6",
   },
   NotifyDEBUGBody = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NotifyDEBUGBorder = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#2c2f44",
   },
   NotifyDEBUGIcon = {
@@ -1187,11 +1187,11 @@ local highlights = {
     fg = "#565f89",
   },
   NotifyERRORBody = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NotifyERRORBorder = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#542931",
   },
   NotifyERRORIcon = {
@@ -1201,11 +1201,11 @@ local highlights = {
     fg = "#db4b4b",
   },
   NotifyINFOBody = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NotifyINFOBorder = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#164a5b",
   },
   NotifyINFOIcon = {
@@ -1215,11 +1215,11 @@ local highlights = {
     fg = "#0db9d7",
   },
   NotifyTRACEBody = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NotifyTRACEBorder = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#41385b",
   },
   NotifyTRACEIcon = {
@@ -1229,11 +1229,11 @@ local highlights = {
     fg = "#9d7cd8",
   },
   NotifyWARNBody = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#c0caf5",
   },
   NotifyWARNBorder = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#55473a",
   },
   NotifyWARNIcon = {
@@ -1376,7 +1376,7 @@ local highlights = {
     fg = "#c0caf5",
   },
   SignColumn = {
-    bg = "#1a1b26",
+    bg = colors.bg,
     fg = "#3b4261",
   },
   SignColumnSB = {
@@ -1439,7 +1439,7 @@ local highlights = {
   },
   TSNote = {
     bg = "#0db9d7",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   TabLine = {
     bg = "#16161e",
@@ -1469,7 +1469,7 @@ local highlights = {
   },
   Todo = {
     bg = "#e0af68",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   TroubleCount = {
     bg = "#3b4261",
@@ -1593,7 +1593,7 @@ local highlights = {
   },
   lCursor = {
     bg = "#c0caf5",
-    fg = "#1a1b26",
+    fg = colors.bg,
   },
   markdownCode = {
     fg = "#1abc9c",
