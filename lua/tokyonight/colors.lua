@@ -4,8 +4,8 @@ local M = {}
 
 ---@class Palette
 M.default = {
-  none = "NONE",
-  bg_dark = "red",
+  none = "#ae81ff",
+  bg_dark = "#1d1e1a",
   bg = "#24283b",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
@@ -26,19 +26,22 @@ M.default = {
   magenta = "#bb9af7",
   magenta2 = "#ff007c",
   purple = "#9d7cd8",
-  orange = "#ff9e64",
+  orange = "#fd971f",
   yellow = "#e0af68",
   green = "#9ece6a",
   green1 = "#73daca",
   green2 = "#41a6b5",
   teal = "#1abc9c",
-  red = "#f7768e",
+  red = "#e95678",
   red1 = "#db4b4b",
-  git = { change = "#6183bb", add = "#449dab", delete = "#914c54" },
+  brown = "#504945",
+  white = "#f8f8f0",
+  grey = "#8F908A",
+  git = { change = "#27406b", add = "#3d5213", delete = "#4a0f23" },
   gitSigns = {
-    add = "#266d6a",
-    change = "#536c9e",
-    delete = "#b2555b",
+    add = "#3d5213",
+    change = "#27406b",
+    delete = "#4a0f23",
   },
 }
 
