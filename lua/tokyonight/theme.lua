@@ -235,6 +235,8 @@ function M.setup()
     ["@keyword.function"] = { fg = c.magenta, style = options.styles.functions }, -- For keywords used to define a fuction.
     ["@label"] = { fg = c.blue }, -- For labels: `label:` in C and `:label:` in Lua.
     TSMethod = { fg = c.green }, -- For method calls and definitions.
+    ["@method"] = { fg = c.green },
+    ["@method.call"] = { fg = c.green },
     -- TSNamespace         = { };    -- For identifiers referring to modules and namespaces.
     -- TSNone              = { };    -- TODO: docs
     ["@none"] = { fg = c.white },
