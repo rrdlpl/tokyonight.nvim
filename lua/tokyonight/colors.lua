@@ -38,6 +38,7 @@ M.default = {
   white = "#f8f8f0",
   grey = "#8F908A",
   pink = "#f92672",
+  aqua = "#66d9ef",
 
   git = { change = "#27406b", add = "#3d5213", delete = "#4a0f23" },
   gitSigns = {
