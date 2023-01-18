@@ -372,7 +372,7 @@ function M.setup()
     NvimTreeIndentMarker = { fg = c.fg_gutter },
     NvimTreeImageFile = { fg = c.fg_sidebar },
     NvimTreeSymlink = { fg = c.blue },
-    NvimTreeFolderIcon = { bg = c.none, fg = c.blue },
+    NvimTreeFolderIcon = { fg = c.fg_sidebar, bg = c.none },
     -- NvimTreeFolderName= { fg = c.fg_float },
 
     NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
