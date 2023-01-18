@@ -148,6 +148,8 @@ function M.setup()
 
     htmlH1 = { fg = c.magenta, bold = true },
     htmlH2 = { fg = c.blue, bold = true },
+    xmlTag = { fg = c.pink },
+    xmlTagName = { fg = c.pink },
 
     -- mkdHeading = { fg = c.orange, bold = true },
     -- mkdCode = { bg = c.terminal_black, fg = c.fg },
