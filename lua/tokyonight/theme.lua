@@ -121,7 +121,6 @@ function M.setup()
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.green }, -- (preferred) int, long, char, etc.
-    sassClass = { fg = c.green },
 
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
@@ -247,6 +246,7 @@ function M.setup()
     ["@number"] = { fg = c.pink },
     ["@operator"] = { fg = c.blue5 }, -- For any operator: `+`, but also `->` and `*` in C.
     ["@parameter"] = { fg = c.orange }, -- For parameters of a function.
+    ["@parameter.reference"] = { fg = c.orange },
     TSParameterReference = { fg = c.orange }, -- For references to parameters of a function.
     ["@property"] = { fg = c.white }, -- Same as `TSField`.
     ["@punctuation.delimiter"] = { fg = c.blue5 }, -- For delimiters ie: `.`
