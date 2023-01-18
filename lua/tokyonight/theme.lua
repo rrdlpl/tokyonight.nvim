@@ -121,6 +121,8 @@ function M.setup()
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.green }, -- (preferred) int, long, char, etc.
+    sassClass = { fg = c.green },
+
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
