@@ -6,9 +6,9 @@ local M = {}
 M.default = {
   none = "NONE",
   bg_dark = "red",
-  bg = "red",
-  bg_highlight = "blue",
-  terminal_black = "yellow",
+  bg = "#24283b",
+  bg_highlight = "#292e42",
+  terminal_black = "#414868",
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
@@ -43,8 +43,8 @@ M.default = {
 }
 
 M.night = {
-  bg = "#1a1b26",
-  bg_dark = "#16161e",
+  bg = "red",
+  bg_dark = "yellow",
 }
 M.day = M.night
 
