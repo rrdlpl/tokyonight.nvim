@@ -356,7 +356,7 @@ function M.setup()
 
     -- Telescope
     TelescopeBorder = { fg = c.pink, bg = c.bg_float },
-    TelescopeNormal = { fg = c.fg, bg = c.bg_float },
+    TelescopeNormal = { fg = c.white, bg = c.bg_float },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
