@@ -259,7 +259,7 @@ function M.setup()
     TSType = { fg = c.green }, -- For types.
     ["@type.qualifier"] = { fg = c.pink },
     -- TSTypeBuiltin       = { };    -- For builtin types.
-    ["@variable"] = { style = options.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable"] = { fg = c.white }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"] = { fg = c.orange }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     -- TSTag               = { };    -- Tags like html tag names.
