@@ -5,10 +5,10 @@ local M = {}
 ---@class Palette
 M.default = {
   none = "NONE",
-  bg_dark = "#1f2335",
+  bg_dark = "red",
   bg = "red",
-  bg_highlight = "#292e42",
-  terminal_black = "#414868",
+  bg_highlight = "blue",
+  terminal_black = "yellow",
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
