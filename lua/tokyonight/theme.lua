@@ -28,7 +28,7 @@ function M.setup()
     Foo = { bg = c.magenta2, fg = c.magenta2 },
 
     Comment = { fg = c.comment, style = options.styles.comments }, -- any comment
-    ColorColumn = { bg = c.black }, -- used for the columns set with 'colorcolumn'
+    ColorColumn = { bg = c.grey }, -- used for the columns set with 'colorcolumn'
     Conceal = { fg = c.dark5 }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor = { fg = c.bg, bg = c.fg }, -- character under the cursor
     lCursor = { fg = c.bg, bg = c.fg }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
