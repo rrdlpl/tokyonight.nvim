@@ -264,6 +264,7 @@ function M.setup()
 
     -- TSTag               = { };    -- Tags like html tag names.
     TSTag = { fg = c.pink },
+    ["@tag"] = { fg = c.pink },
     ["@tag.attribute"] = { fg = c.green },
     -- TSTagDelimiter      = { };    -- Tag delimiter like `<` `>` `/`
     -- TSText              = { };    -- For strings considered text in a markup language.
