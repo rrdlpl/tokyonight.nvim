@@ -733,6 +733,9 @@ function M.setup()
     TreesitterContext = { bg = util.darken(c.fg_gutter, 0.8) },
     Hlargs = { fg = c.yellow },
     -- TreesitterContext = { bg = util.darken(c.bg_visual, 0.4) },
+    --
+    -- Harpoon
+    HarpoonBorder = { fg = c.pink },
   }
 
   if not vim.diagnostic then
