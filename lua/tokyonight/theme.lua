@@ -166,6 +166,7 @@ function M.setup()
     markdownLinkText = { fg = c.blue, underline = true },
 
     ["@punctuation.special.markdown"] = { fg = c.orange, bold = true },
+    ["@text.title"] = { fg = c.white },
     ["@text.todo.unchecked"] = { fg = c.blue }, -- For brackets and parens.
     ["@text.todo.checked"] = { fg = c.green1 }, -- For brackets and parens.
     ["@text.literal.markdown_inline"] = { bg = c.terminal_black, fg = c.blue },
